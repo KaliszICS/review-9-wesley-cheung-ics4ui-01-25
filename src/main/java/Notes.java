@@ -2,9 +2,18 @@ import java.util.Scanner;
 
 class Notes {
 	public static void main(String[] args) {
+		
+		// if statement
+		
+		int num;
+		num = 0;
+
+		if (num < 10) {
+			System.out.println("Hello");
+		}
+		
 		//while loops
 
-		int num;
 		num = 0;
 
 		//ensure that it will become false
@@ -13,7 +22,7 @@ class Notes {
 			System.out.println(num);
 			num = num + 1; //makes it eventually false
 		}
-		//for loops
+		//for loops - counted loops
 
 		//for (intializiation step; condition; increment step)
 		for (int i = 0; i < 10; i++) { //runs 10 times
